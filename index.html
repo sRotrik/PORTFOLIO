@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SROTRIK</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d94c3e75e1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fas fa-bars"onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                    FRONT END DEVELOPER
+                </p>
+                <h1>Hi, I'm <span>Srotrik</span> <br>From SRM</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------about------------------- -->
+    <div id="about">
+        <div class="containe">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am a Frontend Developer with a passion for creating beautiful and functional web applications. I have experience in HTML, CSS, JavaScript, and various frontend frameworks. I love to learn new technologies and improve my skills.
+                    </p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links "onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links "onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>HTML</span><br>Creating Web Pages</li>
+                            <li><span>CSS</span><br>Styling Web Pages</li>
+                            <li><span>JavaScript</span><br>Adding Interactivity</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="experience">
+                        <ul>
+                            <li><span>2024-2025</span><br>Frontend Developer Intern at Prodigy Infotech</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="education">
+                        <ul>
+                            <li><span>2023-2027</span><br>B.Tech from S.R.M INSTITUTE OF SCIENCE AND TECHNOLOGY</li>
+                            <li><span>2021-2023</span><br>Higher Secondary from SRIRAMPUR AGRIL. HIGH SCHOOL</li>
+                            <li><span>2010-2021</span><br>Secondary from SRIRAMPUR AGRIL. HIGH SCHOOL</li>
+                        </ul>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+    <!-- --------------services------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I create beautiful and functional web designs that enhance user experience.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div><i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I design user interfaces and experiences that are intuitive and user-friendly.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        <div>
+     <div>         
+    <!-- --------portfolio-------------------  -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/1.jpg">
+                    <div class="layer">
+                        <h3>Tic Tac Toe Game</h3>
+                        <p>A simple Tic Tac Toe game built using HTML, CSS, and JavaScript. It allows two players to play the game and determines the winner or a draw.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/2.png">
+                    <div class="layer">
+                        <h3>Weather Web</h3>
+                        <p>A weather web application that fetches real-time weather data using APIs and displays the current weather conditions for a selected location.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+     <!-- --------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>srotrikpradhan04@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 7365983234</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/sro_trik?igsh=MXB2Ym4zZ3NjaGo1Zw=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="http://www.linkedin.com/in/srotrik-pradhan-488654298"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sRotrik"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <a href="Images/Srotrik Pradhan (3).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text"name="Name" placeholder="Your Name" required>
+                        <input type="email"name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">Submit</button>
+                    </form>
+
+                    
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+    <!-- --------footer--------- -->
+     <div class="copyright">
+        <p>
+             Copyright © Srotrik Pradhan. <i class="fa-solid fa-heart"></i>All Rights Reserved.
+        </p>
+     </div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <form name="submit-to-google-sheet">
+        
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyGwfzs2KLd7FMHn2-keKfEyiDa7C68FzifQgF5rCS47k8MVU5r-MM7Kax_GhyFskT8Ig/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
